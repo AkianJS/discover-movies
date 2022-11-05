@@ -1,5 +1,5 @@
 ﻿# Busca películas para ver de entre una enorme base de datos
-### todas la información sobre los filmes vienen de themoviedb
+### Toda la información sobre los filmes vienen de themoviedb
 
 Si quieres correr este proyecto en tu PC lo puedes hacer con los siguientes comandos.
 
