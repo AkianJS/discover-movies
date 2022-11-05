@@ -1,0 +1,12 @@
+.image 
+{
+    border-radius: 5px;
+}
+
+.container p
+{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}

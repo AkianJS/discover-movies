@@ -1,0 +1,15 @@
+.container
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.movieDetail p
+{
+    margin-bottom: 10px;
+}

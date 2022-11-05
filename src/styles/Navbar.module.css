@@ -1,0 +1,33 @@
+.container 
+{
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+}
+
+.links
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bar
+{
+    margin-left: 1rem;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.search
+{
+    margin-left: auto;
+    margin-right: 1rem;
+}
