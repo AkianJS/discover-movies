@@ -39,10 +39,10 @@ const MovieDetails = () => {
         </p>
         <p>
           <b>Genres: </b>
-          {genres.join(" ")}
+          {genres.join(", ")}
         </p>
         <p>
-          <b>Description:</b> {movie.overview}{" "}
+        <b>Description:</b> {movie.overview}
         </p>
         <p>
             <b>Rating: </b>{movie.vote_average.toFixed(2)}{" "}

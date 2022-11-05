@@ -1,8 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import "./App.css";
-import MoviesGrid from "./components/MoviesGrid";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Index from "./pages/Index";
 import MovieDetails from "./pages/MovieDetails";
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <BrowserRouter className="App">
         <Navbar />
       <Routes>
-        <Route path="/" element={<MoviesGrid/>}/>
+        <Route path="/" element={<Index/>}/>
         <Route path="/movie/:id" element={<MovieDetails/>}/>
       </Routes>
     </BrowserRouter>

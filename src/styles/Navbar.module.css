@@ -18,7 +18,7 @@
 
 .bar
 {
-    margin-left: 1rem;
+    display: none;
 }
 
 .logo

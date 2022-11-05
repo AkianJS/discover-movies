@@ -9,6 +9,12 @@
     overflow: hidden;
 }
 
+.movieDetail 
+{
+    max-width: 767px;
+    text-align: start;
+}
+
 .movieDetail p
 {
     margin-bottom: 10px;
