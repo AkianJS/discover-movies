@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const MovieCard = ({ movie }) => {
   const image = "https://image.tmdb.org/t/p/w200/" + movie.poster_path;
+  console.log(movie)
   return (
     <li className={styles.container}>
       <Link to={"/movie/" + movie.id}>
