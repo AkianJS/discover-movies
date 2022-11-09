@@ -36,7 +36,7 @@ const MovieDetails = () => {
       <div className={styles.movieDetail}>
         {movie.original_language === "en" ? undefined : (
           <p>
-            <b>Original Title: {movie.original_title}</b>{" "}
+            <b>Original Title: </b> {movie.original_title}
           </p>
         )}
         <p>
